@@ -7,5 +7,8 @@ PyMsgBox==1.0.7
 pyperclip==1.7.0
 PyRect==0.1.4
 PyScreeze==0.1.26
+python-xlib==0.26
 python3-xlib==0.15
 PyTweening==1.0.3
+pyxhook==1.0.0
+six==1.14.0
