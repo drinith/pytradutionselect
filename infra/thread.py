@@ -8,7 +8,7 @@ class Thread (Thread):
         
         
     def run(self, process()):        
-        self.processo()
+         
 
     def processo(self):
         hostname = self.ip #example

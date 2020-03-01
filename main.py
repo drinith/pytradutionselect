@@ -1,13 +1,8 @@
-import clipboard
+from controller.controller import ControlTradutionModule as ControlTM #it is a function
 
-#this function get clipboard stream and send console
-def getClipboard():
-    text = clipboard.paste()
-
-    print(text)
 
 
 if '__main__'==__name__:
-
-    while(True):
-        getClipboard()
+    
+    controll = ControlTM()
+    controll.controllerTradutionModule()
